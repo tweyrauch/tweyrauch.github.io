@@ -5,76 +5,86 @@
   <title>Resume</title>
 	
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/grid.css">
-  <link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Simonetta' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Cantata+One' rel='stylesheet' type='text/css'>				
+  <link rel="stylesheet" href="css/gridpak.css">
+  <link href='http://fonts.googleapis.com/css?family=Petit+Formal+Script' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'>					
   <link rel="stylesheet" href="css/styles.css">	
 	
 </head>
 <body>
 	
-	<div class="container showgrid">
-		
+			
 		<!-- Your Content -->
-<header>
-<h1>My Resume</h1>
-</header>
+	<header>
+		<div class="row container ">
+			<object data="img/logo.svg" type="image/svg+xml" class="logo col">
+				<a href="img/logo.svg">
+					<img src="img/logo.png">
+				</a>
+			</object>
+			<h1 class="col span_6">Tia's Resume</h1>
+			<nav class="col">
+				<ul>
+					<li><a href="http://tweyrauch.github.io/">Home</a></li>
+					<li><a href="bio.html">About</a></li>
+					<li><a href="resume.html">Resume</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
 
-<article class="grid_12">
+	<div class="container">
+		<aside class="col span_2">
+			<p></p>
+		</aside>
 
-<aside class="grid_3 alpha nomargin">
-	<h1>Tia Weyrauch</h1>
-	<h3>tiayrock@gmail.com</h3>
+		<div class="sections">
+			<div class="markers span_2">
+				<ul>
+					<li><a href="#activities">Activities</a></li>
+					<li><a href="#education">Education</a></li>
+					<li><a href="#programs">Programs</a></li>
+				</ul>
+			</div>
+		</div>
 
-	<h2>Computer/Program Proficiency</h2>
+		<article class="col span_10">
+
+<section class="row">
+	<h2 id="activities">Activities</h2>
 	
-	<ul>
-		<li>Microsoft Office Suite</li>
-		<li>Adobe InDesign</li>
-		<li>Adobe Illustrator</li>
-		<li>Adobe Photoshop</li>
-		<li>Html/CSS</li>
-	</ul>
-</aside>
+	<!--First-->
+	<div class="grid_9 omega">
+		<div class="grid_3">
+			<h3>Lead Volunteer</h3>
+			<p><a href="http://partnersforpets.org/">Partners for Pets</a></p>
+			<p>Spokane, WA</p>
+			<p>August 2005– Present</p>
+		</div>
 
-
-<section class="grid_9 omega">
-	<h2>Activities</h2>
-	
-
-
-<!--First-->
-<div class="grid_9 omega">
-	<div class="grid_3">
-		<h3>Lead Volunteer</h3>
-		<p><a href="http://partnersforpets.org/">Partners for Pets</a></p>
-		<p>Spokane, WA</p>
-		<p>August 2005– Present</p>
+		<div class="grid_6 omega">
+			<p>Experience with high levels of responsibility through placed in charge of up to three volunteers and the adoption center at one time. </p>
+		</div>
 	</div>
 
-	<div class="grid_6 omega">
-		<p>Experience with high levels of responsibility through placed in charge of up to three volunteers and the adoption center at one time. </p>
+	<hr>
+
+	<!--Second-->
+	<div class="grid_9 omega">
+		<div class="grid_3">
+			<h3>Marketing and Digital Group Member<br>Classics Project Manager</h3>
+			<p><a href="http://ooligan.pdx.edu/">Ooligan Press</a></p>
+			<p>Portland, OR</p>
+			<p>September 2012-March 2013</p>
+		</div>
+
+		<div class="grid_6 omega">
+			<p>Worked for the press as part of the Portland State University graduate program. Gained experience in marketing, managing projects, graphic design, layout design, updating websites, html coding, and working in a group environment.</p>
+		</div>
 	</div>
-</div>
 
-<hr>
-
-<!--Second-->
-<div class="grid_9 omega">
-	<div class="grid_3">
-		<h3>Marketing and Digital Group Member<br>Classics Project Manager</h3>
-		<p><a href="http://ooligan.pdx.edu/">Ooligan Press</a></p>
-		<p>Portland, OR</p>
-		<p>September 2012-March 2013</p>
-	</div>
-
-	<div class="grid_6 omega">
-		<p>Worked for the press as part of the Portland State University graduate program. Gained experience in marketing, managing projects, graphic design, layout design, updating websites, html coding, and working in a group environment.</p>
-	</div>
-</div>
-
-<hr>
+	<hr>
 
 <!--Third-->
 <div class="grid_9 omega">
@@ -109,8 +119,8 @@
 </section>
 
 
-<section class="grid_9 omega">
-	<h2>Education</h2>
+<section class="row">
+	<h2 id="education">Education</h2>
 	
 
 <!--First-->
@@ -160,17 +170,28 @@
 
 </section>
 
+	<section class="row">
+	
+	<h2 id="programs">Computer/Program Proficiency</h2>
+	
+	<ul>
+		<li>Microsoft Office Suite</li>
+		<li>Adobe InDesign</li>
+		<li>Adobe Illustrator</li>
+		<li>Adobe Photoshop</li>
+		<li>Html/CSS</li>
+	</ul>
+	</section>
+
 </article>
-
-<footer>
-	<p>Copyright &#169; 2014</p>
-</footer>
-
-		<!-- Clearfix -->
-		<div class="clear"></div>
 
 	</div>
 	
+	<div class="top"><a href="#top">&#10143;</a></div>
+
+	<footer class="col span_12">
+		<div class="container"><p>Copyright &copy; Tia C. Weyrauch 2014</p></div>
+	</footer>
   
 </body>
 </html>
