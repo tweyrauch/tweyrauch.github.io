@@ -51,6 +51,8 @@ img.me{
 .logo{
 	height: 7em;
 	float:left;
+	border-radius: 50% 50% 0 25%;
+	box-shadow: inset 10px 10px 20px rgba(255, 235, 209, .2);
 }
 
 
@@ -622,6 +624,10 @@ background: #FFEBD1;
 		float: right;
 	}
 
+	a[href$=".pdf"]{
+		display: none;
+	}
+
 	.lb-album li > a{
 		border: 3px solid #3E5866;
 	}
@@ -640,11 +646,14 @@ background: #FFEBD1;
 	.logo{
 		width: 20%;
 		height: auto;
+		box-shadow: none;
 	}
 
 	header h1{
+		color: #3E5866;
 		font-size: 1.75em;
 		line-height: 2em
+		text-shadow:none;
 	}
 
 	nav{
@@ -657,6 +666,11 @@ background: #FFEBD1;
 
 	.gallery{
 		display: none;
+	}
+
+	.lb-album li > a,
+	img.me{
+		box-shadow: none;
 	}
 
 	.lb-overlay h2{
