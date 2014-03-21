@@ -53,7 +53,8 @@
         .span_1 {
             width:50.0%;
         }
-        .span_2 {
+        .span_2,
+        .rh  {
             margin-left:0;
             width:100%;
         }
@@ -83,7 +84,8 @@
         .span_1 {
             width:50.0%;
         }
-        .span_2{
+        .span_2,
+        .rh {
             margin-left:0;
             width:100%;
         }
@@ -121,7 +123,8 @@
         .span_3 {
             width:75.0%;
         }
-        .span_4 {
+        .span_4,
+        .rh  {
             margin-left:0;
             width:100%;
         }
@@ -214,7 +217,8 @@
         .span_11 {
             width:91.6666666667%;
         }
-        .span_12 {
+        .span_12,
+        .rh  {
             margin-left:0;
             width:100%;
         }
@@ -287,7 +291,8 @@
         .span_11 {
             width:91.6666666667%;
         }
-        .span_12 {
+        .span_12,
+        .rh {
             margin-left:0;
             width:100%;
         }
