@@ -61,8 +61,8 @@ h1{
 	font-family: 'Petit Formal Script', cursive;
 	font-size: 3em;
 	line-height: 2.5em;
-	color:#3E5866;
-	text-shadow: 1px 1px 5px #FFEBD1;
+	color:#FFEBD1;
+	text-shadow: 1px 1px 5px #3E5866;
 }
 
 h2{
@@ -75,7 +75,8 @@ h2{
 h2.rh{
 	padding: .5%;
 	background: rgba(142, 164, 176, .1);
-	box-shadow: 1px 1px 3px gray;
+	/*border-bottom: 1px solid rgba(62, 88, 102, .2);*/
+	box-shadow: 0 1px 3px gray;
 }
 
 h3{
@@ -128,6 +129,7 @@ a[href$=".pdf"]{
 	float: right;
 	margin-bottom: 5%;
 	padding: 1%;
+	box-shadow: 1px 1px 3px gray;
 }
 
 p a:link,
