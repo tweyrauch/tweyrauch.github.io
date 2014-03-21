@@ -140,7 +140,8 @@ nav a:visited{
 }
 
 nav a:hover,
-nav a:active{
+nav a:active,
+nav ul li .current{
 	background: #8EA4B0 linear-gradient(#8EA4B0, #3E5866, #8EA4B0);
 	color: #E4F4FC;
 	border: 1px inset #8EA4B0;
