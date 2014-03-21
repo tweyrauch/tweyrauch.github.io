@@ -26,7 +26,7 @@ aside{
 }
 
 .bio-aside{
-	border-right: 1px dashed #8EA4B0;
+	/*border-right: 1px dashed #8EA4B0;*/
 }
 
 article{
@@ -37,7 +37,7 @@ section {
 	padding: 1.5%;
 }
 
-.span_10{
+.main{
 	border-left: 1px dashed #8EA4B0;
 }
 
@@ -80,27 +80,59 @@ h2{
 	font-size: 1.5em;
 	line-height: 1.5em;
 	color: #3E5866;
+	margin-bottom: 1%;
+}
+
+h2.rh{
+	padding: .5%;
+	background: rgba(142, 164, 176, .1);
 }
 
 h3{
 	font-size: 1.25em;
 	line-height: 1.5em;
 	color: #5C4C38;
+	margin-bottom: 0;
+}
+
+h3 a:link,
+h3 a:visited{
+	color: #5C4C38;
+	border-bottom: 1px solid rgba(142, 164, 176, .3);
+}
+
+h3 a:hover,
+h3 a:active{
+	color:#8EA4B0;
 }
 
 p{
 	font-size: 1em;
 	line-height: 1.5em;
+	margin-top: 1.5%; 
+}
+
+
+.info p:nth-child(2){
+	margin: .5%;
+	margin-top: -5%;
 }
 
 /* LINKS */
 
 a{
 	text-decoration: none;
+	position: relative;
 }
 
-p a{
+p a:link,
+p a:visited{
 	color: rgba(62,88,102,.8);
+}
+
+p a:hover,
+p a:active{
+	text-decoration: underline;
 }
 
 li{
@@ -147,30 +179,6 @@ nav ul li .current{
 	border: 1px inset #8EA4B0;
 }
 
-/*	Extra block links	*/
-.additional li{
-	position: relative;
-	margin: 2%;
-	left: -15%;
-}
-
-.additional a:link,
-.additional a:visited{
-	background: #FFEBD1;
-	color:#5C4C38;
-	width: 110px;
-	display: inline-block;
-	padding: 2%;
-	position: relative;
-	border-radius: 5px;
-	box-shadow: 2px 2px 5px #5C4C38;
-}
-
-.additional a:hover,
-.additional a:active{
-	background: #5C4C38;
-	color: #FFEBD1;
-}
 
 /*Section Navigation*/
 div.markers{
@@ -186,7 +194,7 @@ div.markers{
 div.markers li{
 	position: relative;
 	margin: 1%;
-	left: .5%;
+	left: -.5%;
 }
 
 .markers li a:link,
@@ -528,13 +536,13 @@ background: #FFEBD1;
 
 
 /*	MEDIA QUERIES	*/
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1015px){
 	.container{
 		width: 100%
 	}
 
 	div.markers li{
-		left: -1.5%;
+		left: -2%;
 	}
 }
 
@@ -549,13 +557,22 @@ background: #FFEBD1;
 	}
 
 	div.markers li{
-		left: -2.5%;
+		left: -3.75%;
 	}
 }
 
 @media screen and (max-width: 780px){
 
-	aside,
+	footer{
+		position: relative;
+		bottom: 0;
+		width: 100%
+	}
+
+	.top{
+		display: none;
+	}
+
 	.markers{
 		display: none;
 	}
