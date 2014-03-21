@@ -371,6 +371,11 @@ background: #FFEBD1;
    background-position: -200px -200px;
 }
 
+.designs li:nth-child(4) a {
+   background-position: -300px -200px;
+}
+
+
 /* OVERLAY */
 .lb-overlay{
    /* width: 0px;
