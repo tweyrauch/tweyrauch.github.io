@@ -83,7 +83,7 @@
         .span_1 {
             width:50.0%;
         }
-        .span_2 {
+        .span_2{
             margin-left:0;
             width:100%;
         }
@@ -182,7 +182,8 @@
          .logo {
             width:8.33333333333%;
         }
-        .span_2 {
+        .span_2,
+        .aside-index {
             width:16.6666666667%;
         }
         .span_3 {
@@ -254,7 +255,8 @@
             width:8.33333333333%;
         }
         .span_2,
-        .logo {
+        .logo,
+        .aside-index {
             width:16.6666666667%;
         }
         .span_3 {
