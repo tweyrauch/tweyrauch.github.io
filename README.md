@@ -13,3 +13,5 @@ Favicon Generator (used to convert logo to favicon)- http://favicon-generator.or
 Unicode Charcters - http://unicode-table.com/en/ 
 
 Typeform (used to create contact form) - http://typeform.com/ 
+
+Icon Monster (for home icon for small screens) - http://iconmonstr.com/home-4-icon/
