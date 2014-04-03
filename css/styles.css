@@ -637,7 +637,7 @@ background: #FFEBD1;
 	}
 }
 
-@media screen and (max-width: 495px){
+@media screen and (max-device-width: 495px){
 
 	header{
 		height: 150px;
@@ -683,7 +683,7 @@ background: #FFEBD1;
 	}
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-device-width: 320px){
 
 	header{
 		height: 100px;
