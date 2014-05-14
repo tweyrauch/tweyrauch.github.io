@@ -52,7 +52,11 @@ img.me{
 	height: 7em;
 	float:left;
 	border-radius: 50% 50% 0 45%;
-	box-shadow: inset 10px 10px 20px rgba(255, 235, 209, .2);
+	/*box-shadow: inset 10px 10px 20px rgba(255, 235, 209, .2);*/
+}
+
+.error{
+	height: 100%;
 }
 
 
