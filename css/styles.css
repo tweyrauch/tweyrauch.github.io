@@ -19,6 +19,7 @@ body{
 .map h3{
 	display: inline-block;
 	margin: 2%;
+	text-align: center;
 }
 
 header{
