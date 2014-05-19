@@ -1,3 +1,4 @@
+//OriDomi plugin http://oridomi.com/
 var folded = new OriDomi(document.getElementsByClassName('map')[0]);
 var folded = new OriDomi('.map', {
   vPanels:         [30,17,17,17,18],     // number of panels when folding left or right (vertically oriented)
