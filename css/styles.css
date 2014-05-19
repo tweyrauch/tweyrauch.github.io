@@ -280,9 +280,12 @@ background: #FFEBD1;
 	height: 300px;
 }
 
-.map h3{
+.map div.span_8{
+	padding: 7% 0 0 5%;
+}
 
-	margin: 2%;
+.map h3{
+	margin: 3% 2%;
 	position: relative;
 	text-align: center;
 
@@ -305,13 +308,23 @@ background: #FFEBD1;
 
 .map h3:nth-child(1) a{
 	background-position: 0 0;
+	z-index: 2;
 }
 
 .map h3:nth-child(1):before{
 	content:url('../img/beforearrow.png');
 	position: absolute;
-	left: -20px;
-	top: 10px;
+	left: -28px;
+	top: 5px;
+}
+
+.map h3:nth-child(1):after{
+	content:'X';
+	font-size: 3em;
+	color: rgba(255, 0, 0, .1);
+	position: absolute;
+	left: 35%;
+	z-index: 1;
 }
 
 .map h3:nth-child(2) a{
@@ -322,7 +335,7 @@ background: #FFEBD1;
 	content:url('../img/afterarrow.png');
 	position: absolute;
 	right: -20px;
-	top: 20px;
+	top: 10px;
 }
 
 .map h3:nth-child(3) a{
@@ -332,8 +345,8 @@ background: #FFEBD1;
 .map h3:nth-child(3):before{
 	content:url('../img/beforearrow.png');
 	position: absolute;
-	left: 63px;
-	top: 10px;
+	left: 65px;
+	top: 5px;
 }
 
 .map h3:nth-child(4) a{
