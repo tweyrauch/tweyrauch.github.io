@@ -12,7 +12,8 @@ body{
 }
 
 .map{
-	background:#FFEBD1 ;
+	/*background:#FFEBD1 ;*/
+	background: rgba(255, 235, 209, .8);
 	height: 300px;
 }
 
@@ -20,6 +21,10 @@ body{
 	display: inline-block;
 	margin: 2%;
 	text-align: center;
+}
+
+.map p{
+	font-size: .75em;
 }
 
 header{
