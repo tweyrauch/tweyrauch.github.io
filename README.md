@@ -14,6 +14,8 @@ Unicode Charcters - http://unicode-table.com/en/
 
 Typeform (used to create contact form) - http://typeform.com/ 
 
-Icon Monster (for home icon for small screens) - http://iconmonstr.com/home-4-icon/
+Icon Monster (for home icon for small screens, and icons on 404 page) - http://iconmonstr.com/home-4-icon/
 
 Treehouse (code to add scaleable vector graphic to page) - http://teamtreehouse.com/library/build-a-responsive-website/responsive-design/flexible-images-part-one-vector-graphics-2
+
+OriDomi (jquery plugin on 404 page)- http://oridomi.com/
