@@ -1,0 +1,111 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?olmrxx');
+	src:url('../fonts/icomoon.eot?olmrxx#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.ttf?olmrxx') format('truetype'),
+		url('../fonts/icomoon.woff?olmrxx') format('woff'),
+		url('../fonts/icomoon.svg?olmrxx#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-iconmonstr-archive-7-icon:before {
+	content: "\e600";
+}
+.icon-iconmonstr-audio-8-icon:before {
+	content: "\e602";
+}
+.icon-iconmonstr-book-17-icon:before {
+	content: "\e603";
+}
+.icon-iconmonstr-briefcase-4-icon:before {
+	content: "\e608";
+}
+.icon-iconmonstr-christmas-snowflake-icon:before {
+	content: "\e609";
+}
+.icon-iconmonstr-coffee-10-icon:before {
+	content: "\e60b";
+}
+.icon-iconmonstr-computer-3-icon:before {
+	content: "\e60c";
+}
+.icon-iconmonstr-email-9-icon:before {
+	content: "\e60d";
+}
+.icon-iconmonstr-github-4-icon:before {
+	content: "\e610";
+}
+.icon-iconmonstr-glasses-7-icon:before {
+	content: "\e611";
+}
+.icon-iconmonstr-headphones-icon:before {
+	content: "\e613";
+}
+.icon-iconmonstr-home-4-icon:before {
+	content: "\e614";
+}
+.icon-iconmonstr-inbox-8-icon:before {
+	content: "\e615";
+}
+.icon-iconmonstr-laptop-2-icon:before {
+	content: "\e616";
+}
+.icon-iconmonstr-light-bulb-17-icon:before {
+	content: "\e617";
+}
+.icon-iconmonstr-linkedin-4-icon:before {
+	content: "\e618";
+}
+.icon-iconmonstr-menu-icon:before {
+	content: "\e619";
+}
+.icon-iconmonstr-microphone-8-icon:before {
+	content: "\e61a";
+}
+.icon-iconmonstr-newspaper-3-icon:before {
+	content: "\e61b";
+}
+.icon-iconmonstr-paper-plane-icon:before {
+	content: "\e61c";
+}
+.icon-iconmonstr-pdf-file-7-icon:before {
+	content: "\e61d";
+}
+.icon-iconmonstr-pen-15-icon:before {
+	content: "\e61e";
+}
+.icon-iconmonstr-photo-camera-icon:before {
+	content: "\e61f";
+}
+.icon-iconmonstr-picture-multi-5-icon:before {
+	content: "\e620";
+}
+.icon-iconmonstr-quote-15-icon:before {
+	content: "\e621";
+}
+.icon-iconmonstr-script-5-icon:before {
+	content: "\e622";
+}
+.icon-iconmonstr-sitemap-10-icon:before {
+	content: "\e623";
+}
+.icon-iconmonstr-video-camera-6-icon:before {
+	content: "\e628";
+}
+
+
