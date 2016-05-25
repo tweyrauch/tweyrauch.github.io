@@ -437,6 +437,7 @@ i{
 }
 
 
+
 .lb-overlay .overlay-content{
 	margin: auto;
 	position: absolute;
@@ -481,7 +482,6 @@ ul.accomplishments li{
 
 .slider{
 	position: relative;
-
 }
 
 .landscape{
@@ -499,13 +499,14 @@ ul.accomplishments li{
 	padding-top: 70%;
 }
 
+
 .background{
 	position: absolute;
 	width: 78%
 }
 
 .bgportrait{
-	width:58%;
+	width:65%;
 	position:absolute;
 }
 
