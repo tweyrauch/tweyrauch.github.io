@@ -420,13 +420,17 @@ i{
 .lb-overlay a.lb-close{
     z-index: 1001;
     position: absolute;
-    top: 5em;
+    top: 2em;
     right:0;
     font-size: 2em;
     width: 1em;
     height: 2em;
     overflow: hidden;
     margin:1%; 
+}
+
+label img{
+	max-height: 5em;
 }
 
 .lb-overlay img,
