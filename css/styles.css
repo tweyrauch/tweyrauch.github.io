@@ -420,7 +420,7 @@ i{
 .lb-overlay a.lb-close{
     z-index: 1001;
     position: absolute;
-    top: 0;
+    top: 5em;
     right:0;
     font-size: 2em;
     width: 1em;
@@ -431,8 +431,8 @@ i{
 
 .lb-overlay img,
 .lb-overlay iframe{
-	max-width: 95%;
-	max-height: 50%;
+	width: auto;
+	max-height: 50vh;
 }
 
 .portrait img{
