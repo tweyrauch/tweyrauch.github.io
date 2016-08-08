@@ -429,13 +429,8 @@ i{
     margin:1%; 
 }
 
-label img{
-	max-height: 5em;
-}
-
 .lb-overlay img,
 .lb-overlay iframe{
-	width: auto;
 	max-height: 50vh;
 }
 
@@ -494,17 +489,17 @@ ul.accomplishments li{
 
 .landscape{
 	width: 95%;
-	padding-top: 62%;
+	padding-top: 20%;
 }
 
 .landscape2{
 	width: 95%;
-	padding-top: 40%;
+	padding-top: 20%;
 }
 
 .landscape3{
 	width: 95%;
-	padding-top: 70%;
+	padding-top: 20%;
 }
 
 
@@ -531,6 +526,7 @@ input[name="switch"]{
 .lb-overlay:target .slider label img{
 	
 	opacity: .5;
+	max-height: 5em;
 }
 
 .lb-overlay:target .landscape label img{
@@ -547,7 +543,6 @@ input[name="switch"]{
 }*/
 
 .lb-overlay:target .tallwide label img{
-	padding-left: 78%;
 	display: block;
 	padding-top: 1%;
 }
