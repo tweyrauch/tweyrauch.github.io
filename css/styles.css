@@ -387,7 +387,6 @@ i{
     overflow: hidden;
     right: 0px;
     top: 0;
-    padding: 0px;
     padding-top: 5em;
     z-index: 99;
     transition: opacity 0.5s ease-in-out;
@@ -431,7 +430,7 @@ i{
 
 .lb-overlay img,
 .lb-overlay iframe{
-	max-height: 50vh;
+	max-height: 60vh;
 }
 
 .portrait img{
@@ -488,28 +487,34 @@ ul.accomplishments li{
 }
 
 .landscape{
-	width: 95%;
-	padding-top: 20%;
+	max-width: 95%;
+	padding-top: 75vh;
 }
 
-.landscape2{
-	width: 95%;
-	padding-top: 20%;
+/*.landscape2{
+	max-width: 95%;
+	padding-top: 30%;
 }
 
 .landscape3{
-	width: 95%;
-	padding-top: 20%;
+	max-width: 95%;
+	padding-top: 30%;
 }
-
+*/
 
 .background{
 	position: absolute;
-	width: 78%
+	max-width: 78%
+}
+
+.accomplishments2{
+	position: absolute;
+	left: 55vw;
+	top: 5em;
 }
 
 .bgportrait{
-	width:65%;
+	max-width:65%;
 	position:absolute;
 }
 
@@ -534,7 +539,7 @@ input[name="switch"]{
 }
 
 .lb-overlay:target .portrait label img{
-	padding-left: 66%;
+	padding-left: 30%;
 	display: block;
 }
 
@@ -545,6 +550,7 @@ input[name="switch"]{
 .lb-overlay:target .tallwide label img{
 	display: block;
 	padding-top: 1%;
+	padding-left: 40vw;
 }
 
 .tallwide > img{
@@ -556,7 +562,7 @@ input[name="switch"]{
 }
 
 .partnersbg{
-	width: 52%;
+	max-width: 10%;
 	position: absolute;
 }
 
