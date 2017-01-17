@@ -80,6 +80,8 @@ header{
 	background: #2D4A59;
 	height: 5em;
 	display: block;
+	position: relative;
+	z-index: 10000;
 }
 
 header h1{
@@ -385,7 +387,7 @@ i{
     overflow: hidden;
     right: 0px;
     top: 0;
-    padding: 0px;
+    padding-top: 5em;
     z-index: 99;
     transition: opacity 0.5s ease-in-out;
     -webkit-transition: all .75s ease-in-out;
@@ -417,7 +419,7 @@ i{
 .lb-overlay a.lb-close{
     z-index: 1001;
     position: absolute;
-    top: 0;
+    top: 2em;
     right:0;
     font-size: 2em;
     width: 1em;
@@ -428,7 +430,7 @@ i{
 
 .lb-overlay img,
 .lb-overlay iframe{
-	max-width: 95%;
+	max-height: 60vh;
 }
 
 .portrait img{
@@ -485,28 +487,33 @@ ul.accomplishments li{
 }
 
 .landscape{
-	width: 95%;
-	padding-top: 62%;
+	padding-top: 62vh;
 }
 
-.landscape2{
-	width: 95%;
-	padding-top: 40%;
+/*.landscape2{
+	max-width: 95%;
+	padding-top: 30%;
 }
 
 .landscape3{
-	width: 95%;
-	padding-top: 70%;
+	max-width: 95%;
+	padding-top: 30%;
 }
-
+*/
 
 .background{
 	position: absolute;
-	width: 78%
+	max-width: 78%
+}
+
+.accomplishments2{
+	position: absolute;
+	left: 55vw;
+	top: 5em;
 }
 
 .bgportrait{
-	width:65%;
+	max-width:65%;
 	position:absolute;
 }
 
@@ -523,6 +530,7 @@ input[name="switch"]{
 .lb-overlay:target .slider label img{
 	
 	opacity: .5;
+	max-height: 5em;
 }
 
 .lb-overlay:target .landscape label img{
@@ -530,7 +538,7 @@ input[name="switch"]{
 }
 
 .lb-overlay:target .portrait label img{
-	padding-left: 66%;
+	padding-left: 30%;
 	display: block;
 }
 
@@ -539,9 +547,9 @@ input[name="switch"]{
 }*/
 
 .lb-overlay:target .tallwide label img{
-	padding-left: 78%;
 	display: block;
 	padding-top: 1%;
+	padding-left: 40vw;
 }
 
 .tallwide > img{
@@ -553,7 +561,7 @@ input[name="switch"]{
 }
 
 .partnersbg{
-	width: 52%;
+	max-width: 10%;
 	position: absolute;
 }
 
