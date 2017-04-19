@@ -633,11 +633,7 @@ input[name="switch"]{
 
 /*Alternate Gallery*/
 
-.imglist li img{
-	width: 100%;
-	display: block;
-	position: initial;
-}
+
 
 .lb-overlay img,
 .lb-overlay iframe{
@@ -652,6 +648,13 @@ input[name="switch"]{
 	border: 5px solid #2D4A59;
 	box-sizing: border-box;
     transition: opacity 0.5s linear;
+}
+
+.imglist li img{
+	width: 100%;
+	display: block;
+	position: initial;
+	max-height: auto;
 }
 
 .lb-overlay .landscape{
