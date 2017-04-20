@@ -1101,7 +1101,7 @@ footer{
 	
 }
 
-@media screen and (max-width: 568px) and (orientation:landscape){
+@media screen and (max-width: 750px) and (orientation:landscape){
 .description {
     top: 140vh;
 }
