@@ -893,11 +893,11 @@ footer{
 /*Media Queries*/
 @media screen and (max-width: 1440px) and (orientation:portrait){
 .lb-overlay .overlay-content{
-		padding-top: 10em;
+		padding-top: 12em;
 	}
 
 	.lb-overlay .title{
-		top: -10em;
+		top: -9em;
 	}
 
 .lb-overlay img.portrait, .lb-overlay img.portrait2{
@@ -940,6 +940,7 @@ footer{
 	padding-left: 2em;
 	box-sizing:border-box;
 	top:67vh;
+	right: 0;
 }
 
 .animation + div + .description-landscape{
@@ -1081,7 +1082,7 @@ footer{
 	}
 
 	.lb-overlay .animation{
-		width: 75%;
-		height: auto;
+		    height: 189px;
+    width: 335px;
 	}
 }
