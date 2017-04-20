@@ -413,6 +413,18 @@ i{
 	color: #2D4A59;
 }
 
+.lb-overlay h3 a{
+	opacity: .5;
+}
+
+.lb-overlay h3 a i{
+	opacity: 1;
+}
+
+.lb-overlay h3 a i:hover{
+	color: #2D4A59;
+}
+
 .album li div.lb-overlay a{
 	background: none;
 	color: #2D4A59;
