@@ -895,11 +895,11 @@ footer{
 /*Media Queries*/
 @media screen and (max-width: 1440px) and (orientation:portrait){
 .lb-overlay .overlay-content{
-		padding-top: 12em;
+		padding-top: 16em;
 	}
 
 	.lb-overlay .title{
-		top: -9em;
+		top: -13em;
 	}
 
 .lb-overlay img.portrait, .lb-overlay img.portrait2{
@@ -912,10 +912,13 @@ footer{
 	    line-height: 0;
 }
 
-.portrait + div>a.lb-prev, .portrait2 + div>a.lb-prev, .portrait + div>a.lb-next, .portrait2 + div>a.lb-next {
-    top: 13.5em;
+.portrait2 + div>a.lb-prev, .portrait2 + div>a.lb-next {
+    top: 16em;
 }
 
+.portrait + div>a.lb-prev, .portrait + div>a.lb-next{
+	top: 25em;
+}
 
 .lb-overlay .landscape, .lb-overlay .landscape2, .lb-overlay .animation{
 	width: 75%;
@@ -927,7 +930,7 @@ footer{
 
 
 .landscape + div>a.lb-prev, .landscape + div>a.lb-next, .animation + div>a.lb-prev, .animation + div>a.lb-next{
-    top: 10em;
+    top: 20em;
 }
 
 
@@ -939,12 +942,12 @@ footer{
 	width: 100%;
 	padding: 0 5%;
 	box-sizing:border-box;
-	top:67vh;
+	top:50vh;
 	right: 0;
 }
 
 .description{
-	top: 80vh;
+	top: 65vh;
 }
 
 /*.animation + div + .description-landscape{
@@ -1027,8 +1030,9 @@ footer{
 
 	}
 
-}
+	
 
+}
 
 
 
@@ -1057,6 +1061,31 @@ footer{
 	.lb-overlay .title{
 		top: -1em;
 	}
+
+	/*.lb-overlay .overlay-content{
+		padding-top: 16em;
+	}
+
+	.lb-overlay .title{
+		top: -13em;
+	}*/
+.portrait + div>a.lb-prev, .portrait2 + div>a.lb-prev, .portrait + div>a.lb-next, .portrait2 + div>a.lb-next {
+    top: 13.5em;
+}
+
+
+.description-landscape, .description, .description-triple{
+	top: 67vh;
+}
+
+.landscape + div>a.lb-prev, .landscape + div>a.lb-next, .animation + div>a.lb-prev, .animation + div>a.lb-next{
+	top: 10em;
+}
+
+.description{
+	top: 80vh;
+}
+
 }
 
 @media screen and (max-width: 568px){
