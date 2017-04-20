@@ -904,7 +904,7 @@ footer{
 
 .lb-overlay img.portrait, .lb-overlay img.portrait2{
 	width: 50%;
-
+	top: 37em;
 }
 
 
@@ -917,7 +917,7 @@ footer{
 }
 
 .portrait + div>a.lb-prev, .portrait + div>a.lb-next{
-	top: 25em;
+	top: 28em;
 }
 
 .lb-overlay .landscape, .lb-overlay .landscape2, .lb-overlay .animation{
@@ -927,7 +927,13 @@ footer{
 
 }
 
+.lb-overlay .animation{
+	height: 100%;
+}
 
+.lb-overlay .landscape2{
+	top: 23em;
+}
 
 .landscape + div>a.lb-prev, .landscape + div>a.lb-next, .animation + div>a.lb-prev, .animation + div>a.lb-next{
     top: 20em;
@@ -935,7 +941,7 @@ footer{
 
 
 .landscape2 + div>a.lb-prev, .landscape2 + div>a.lb-next{
-	top: 11em;
+	top: 21em;
 }
 
 .description-landscape, .description, .description-triple{
@@ -960,7 +966,7 @@ footer{
 }*/
 
 .lb-overlay .description-landscape + p.link{
-	top: 59vh;
+	top: 43vh;
 }
 
 .lb-overlay .description + p.link{
@@ -1084,6 +1090,10 @@ footer{
 
 .description{
 	top: 80vh;
+}
+
+.lb-overlay .description-landscape + p.link{
+	top: 59vh;
 }
 
 }
