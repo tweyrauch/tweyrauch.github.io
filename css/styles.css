@@ -28,6 +28,10 @@ h1 + p, h2 + p, h3 + p{
 	margin: 0 auto;
 }
 
+article.container{
+		padding-top: 7em;
+}
+
 .logo{
 	height: 3em;
 	float:left;
@@ -80,7 +84,8 @@ header{
 	background: #2D4A59;
 	height: 5em;
 	display: block;
-	position: relative;
+	position: fixed;
+	width: 100%;
 	z-index: 10000;
 }
 
@@ -350,6 +355,10 @@ i{
 
 .album li a[href*="funstuff"]{
 	background-position: 0px -1000px;
+}
+
+.album li a[href*="instagram"]{
+	background-position: -250px -1000px;
 }
 
 .highlight:hover,
@@ -887,6 +896,112 @@ footer{
 
 }
 
+@media screen and (max-width: 1200px) and (orientation:portrait){
+.lb-overlay img.portrait, .lb-overlay img.portrait2{
+	width: 50%;
+	right: auto;
+
+}
+
+
+.portrait + div>a.lb-prev, .triplewrap + div>a.lb-prev, .triplewrap + div>a.lb-next, .portrait2 + div>a.lb-prev, .portrait + div>a.lb-next, .landscape + div>a.lb-next, .landscape + div>a.lb-prev, .portrait2 + div>a.lb-next, .landscape2 + div>a.lb-prev, .landscape2 + div>a.lb-next{
+	    line-height: 0;
+}
+
+.portrait + div>a.lb-prev, .portrait2 + div>a.lb-prev {
+    left: 1em;
+    top: 15em;
+}
+
+.portrait + div>a.lb-next, .portrait2 + div>a.lb-next {
+    left: 2em;
+    top:15em;
+}
+
+.lb-overlay .landscape, .lb-overlay .landscape2{
+	width: 75%;
+	height: auto;
+	top:18em;
+
+}
+
+.animation + div>a.lb-prev, .animation + div>a.lb-next{
+	top: 9em;
+}
+
+.landscape + div>a.lb-prev, .landscape + div>a.lb-next{
+    top: 10em;
+}
+
+
+.landscape2 + div>a.lb-prev, .landscape2 + div>a.lb-next{
+	top: 11em;
+}
+
+.description-landscape{
+	width: 100%;
+	right: -1em;
+	top:67vh;
+}
+
+.animation + div + .description-landscape{
+	top:72vh;
+}
+
+.triplewrap{
+	right: auto;
+	text-align: left;
+}
+
+.lb-overlay .description-landscape + p.link{
+	top: 60vh;
+}
+
+.lb-overlay .description + p.link{
+	text-align: left;
+}
+
+.description, .description-triple{
+	top:20vh;
+	width: 35%;
+}
+
+.description-triple{
+	float: right;
+}
+
+.description-triple + p.link{
+    width: 35%;
+    top: auto;
+    left: auto;
+    margin-right: 25px;
+    text-align: left;
+    position: absolute;
+    bottom: -15em;
+}
+
+.description-triple + p.link i{
+	display: none;
+}
+
+.triplewrap + div>a.lb-prev {
+    right: -1em;
+    top: 20em;
+}
+
+.triplewrap + div>a.lb-next {
+    right: 1em;
+    top:20em;
+}
+
+.lb-overlay i{
+	display: none;
+}
+
+
+
+}
+
 @media screen and (max-width: 959px){
 	.container{
 		width: 100%;
@@ -916,7 +1031,17 @@ footer{
 		height: 7em;
 	}
 
+	.lb-overlay{
+		padding-top: 0;
+	}
 
+	header{
+		position: relative;
+	}
+
+	article.container{
+		padding-top: 0;
+	}
 	
 	.picture{
 		display: none;
