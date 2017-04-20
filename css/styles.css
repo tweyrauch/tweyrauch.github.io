@@ -892,6 +892,14 @@ footer{
 
 /*Media Queries*/
 @media screen and (max-width: 1440px) and (orientation:portrait){
+.lb-overlay .overlay-content{
+		padding-top: 10em;
+	}
+
+	.lb-overlay .title{
+		top: -10em;
+	}
+
 .lb-overlay img.portrait, .lb-overlay img.portrait2{
 	width: 50%;
 	right: auto;
@@ -995,6 +1003,12 @@ footer{
 
 
 
+}
+
+@media screen and (max-width: 1024px) and (orientation:portrait){
+	.lb-overlay{
+		padding-top: 5em;
+	}
 }
 
 @media screen and (max-width: 1200px){
