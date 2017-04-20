@@ -1005,11 +1005,7 @@ footer{
 
 }
 
-@media screen and (max-width: 1024px) and (orientation:portrait){
-	.lb-overlay{
-		padding-top: 5em;
-	}
-}
+
 
 @media screen and (max-width: 1200px){
 	
@@ -1030,12 +1026,6 @@ footer{
 
 
 
-@media screen and (max-width: 1030px){
-	.lb-overlay .title{
-		top:-1em;
-	}
-
-}
 
 @media screen and (max-width: 959px){
 	.container{
@@ -1050,6 +1040,13 @@ footer{
 
 	.highlight, .designation{
 		display: none;
+	}
+
+}
+
+@media screen and (max-width: 650px) and (orientation:portrait){
+	.lb-overlay .overlay-content{
+		padding-top: 5em;
 	}
 
 	.lb-overlay .title{
@@ -1080,5 +1077,9 @@ footer{
 	
 	.picture{
 		display: none;
+	}
+
+	.lb-overlay a.lb-close{
+		right: 1em;
 	}
 }
