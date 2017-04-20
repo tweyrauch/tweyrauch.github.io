@@ -551,11 +551,11 @@ ul.accomplishments li{
 }
 
 .lb-overlay .title{
-	    top: -2em;
+	  top: -2em;
 text-align: center;
 position: relative;
-margin-top: -1%;
-margin-bottom: -1%;
+margin-top: 0;
+margin-bottom: 1%;
 	}
 
 .lb-overlay p.link{
