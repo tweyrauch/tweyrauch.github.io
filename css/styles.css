@@ -902,7 +902,6 @@ footer{
 
 .lb-overlay img.portrait, .lb-overlay img.portrait2{
 	width: 50%;
-	right: auto;
 
 }
 
@@ -911,15 +910,10 @@ footer{
 	    line-height: 0;
 }
 
-.portrait + div>a.lb-prev, .portrait2 + div>a.lb-prev {
-    left: 1em;
+.portrait + div>a.lb-prev, .portrait2 + div>a.lb-prev, .portrait + div>a.lb-next, .portrait2 + div>a.lb-next {
     top: 15em;
 }
 
-.portrait + div>a.lb-next, .portrait2 + div>a.lb-next {
-    left: 2em;
-    top:15em;
-}
 
 .lb-overlay .landscape, .lb-overlay .landscape2{
 	width: 75%;
@@ -941,9 +935,10 @@ footer{
 	top: 11em;
 }
 
-.description-landscape{
+.description-landscape, .description, .description-triple{
 	width: 100%;
-	right: -1em;
+	padding-left: 2em;
+	box-sizing:border-box;
 	top:67vh;
 }
 
@@ -964,16 +959,16 @@ footer{
 	text-align: left;
 }
 
-.description, .description-triple{
+/*.description, .description-triple{
 	top:20vh;
 	width: 35%;
 }
 
 .description-triple{
 	float: right;
-}
+}*/
 
-.description-triple + p.link{
+/*.description-triple + p.link{
     width: 35%;
     top: auto;
     left: auto;
@@ -985,7 +980,7 @@ footer{
 
 .description-triple + p.link i{
 	display: none;
-}
+}*/
 
 .triplewrap + div>a.lb-prev {
     right: -1em;
@@ -997,9 +992,9 @@ footer{
     top:20em;
 }
 
-.lb-overlay i{
+/*.lb-overlay i{
 	display: none;
-}
+}*/
 
 
 
@@ -1065,6 +1060,7 @@ footer{
 
 	.lb-overlay{
 		padding-top: 0;
+		height: 100%;
 	}
 
 	header{
@@ -1081,5 +1077,11 @@ footer{
 
 	.lb-overlay a.lb-close{
 		right: 1em;
+		top: 0;
+	}
+
+	.lb-overlay .animation{
+		width: 75%;
+		height: auto;
 	}
 }
