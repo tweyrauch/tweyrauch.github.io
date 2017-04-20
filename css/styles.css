@@ -891,24 +891,7 @@ footer{
 }
 
 /*Media Queries*/
-@media screen and (max-width: 1200px){
-	
-
-	.description-triple{
-		width: 100%;
-		top:70vh;
-		position: relative;
-	}
-
-	.description-triple + p.link{
-		position: relative;
-		top: 12em;
-
-	}
-
-}
-
-@media screen and (max-width: 1200px) and (orientation:portrait){
+@media screen and (max-width: 1440px) and (orientation:portrait){
 .lb-overlay img.portrait, .lb-overlay img.portrait2{
 	width: 50%;
 	right: auto;
@@ -1011,6 +994,32 @@ footer{
 }
 
 
+
+}
+
+@media screen and (max-width: 1200px){
+	
+
+	.description-triple{
+		width: 100%;
+		top:70vh;
+		position: relative;
+	}
+
+	.description-triple + p.link{
+		position: relative;
+		top: 12em;
+
+	}
+
+}
+
+
+
+@media screen and (max-width: 1030px){
+	.lb-overlay .title{
+		top:-1em;
+	}
 
 }
 
