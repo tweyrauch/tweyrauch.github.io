@@ -663,14 +663,22 @@ input[name="switch"]{
 	margin: auto;
 	height: auto;
 	position: absolute;
-	top: 25em;
+	
 	left:0;
 	right:0;
-	bottom: 0;
+	/*bottom: 0;*/
 	width: 25%;
 	border: 5px solid #2D4A59;
 	box-sizing: border-box;
     transition: opacity 0.5s linear;
+}
+
+.lb-overlay img{
+	top:30em;
+}
+
+.lb-overlay iframe{
+	top: 25em;
 }
 
 .imglist li img{
@@ -897,18 +905,24 @@ footer{
 }
 
 /*Media Queries*/
-@media screen and (max-width: 1440px) and (orientation:portrait){
-.lb-overlay .overlay-content{
-		padding-top: 16em;
+@media screen and (max-width: 1440px){
+	.lb-overlay img{
+		top:25em;
 	}
+}
+
+@media screen and (max-width: 1440px) and (orientation:portrait){
+/*.lb-overlay .overlay-content{
+		padding-top: 16em;
+	}*/
 
 	.lb-overlay .title{
-		top: -13em;
+		top: -1em;
 	}
 
 .lb-overlay img.portrait, .lb-overlay img.portrait2{
 	width: 50%;
-	top: 37em;
+	top:1em;
 }
 
 
@@ -917,7 +931,7 @@ footer{
 }
 
 .portrait2 + div>a.lb-prev, .portrait2 + div>a.lb-next {
-    top: 16em;
+    top: 18em;
 }
 
 .portrait + div>a.lb-prev, .portrait + div>a.lb-next{
@@ -957,7 +971,7 @@ footer{
 }
 
 .description{
-	top: 65vh;
+	top: 58vh;
 }
 
 /*.animation + div + .description-landscape{
