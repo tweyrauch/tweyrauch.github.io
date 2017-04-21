@@ -904,13 +904,13 @@ footer{
 	padding:.5% 0;
 }
 
-/*Media Queries*/
+/*Media Queries
 @media screen and (max-width: 1440px){
 	.lb-overlay img{
 		top:25em;
 	}
 }
-
+*/
 @media screen and (max-width: 1440px) and (orientation:portrait){
 /*.lb-overlay .overlay-content{
 		padding-top: 16em;
