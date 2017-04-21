@@ -662,7 +662,7 @@ input[name="switch"]{
 	top: 25em;
 	left:0;
 	right:0;
-	bottom: 0;
+	/*bottom: 0;*/
 	width: 25%;
 	border: 5px solid #2D4A59;
 	box-sizing: border-box;
@@ -904,12 +904,12 @@ footer{
 }
 
 @media screen and (max-width: 1440px) and (orientation:portrait){
-.lb-overlay .overlay-content{
+/*.lb-overlay .overlay-content{
 		padding-top: 16em;
-	}
+	}*/
 
 	.lb-overlay .title{
-		top: -13em;
+		top: -1em;
 	}
 
 .lb-overlay img.portrait, .lb-overlay img.portrait2{
@@ -923,7 +923,7 @@ footer{
 }
 
 .portrait2 + div>a.lb-prev, .portrait2 + div>a.lb-next {
-    top: 16em;
+    top: 18em;
 }
 
 .portrait + div>a.lb-prev, .portrait + div>a.lb-next{
@@ -957,7 +957,7 @@ footer{
 }
 
 .description{
-	top: 65vh;
+	top: 58vh;
 }
 
 /*.animation + div + .description-landscape{
