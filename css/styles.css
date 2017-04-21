@@ -669,6 +669,10 @@ input[name="switch"]{
     transition: opacity 0.5s linear;
 }
 
+.lb-overlay img{
+	top:30em;
+}
+
 .imglist li img{
 	width: 100%;
 	display: block;
@@ -893,6 +897,12 @@ footer{
 }
 
 /*Media Queries*/
+@media screen and (max-width: 1440px){
+	.lb-overlay img{
+		top:25em;
+	}
+}
+
 @media screen and (max-width: 1440px) and (orientation:portrait){
 .lb-overlay .overlay-content{
 		padding-top: 16em;
