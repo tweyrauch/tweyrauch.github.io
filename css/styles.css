@@ -663,7 +663,7 @@ input[name="switch"]{
 	margin: auto;
 	height: auto;
 	position: absolute;
-	
+	top:1em;
 	left:0;
 	right:0;
 	/*bottom: 0;*/
@@ -673,13 +673,13 @@ input[name="switch"]{
     transition: opacity 0.5s linear;
 }
 
-.lb-overlay img{
+/*.lb-overlay img{
 	top:30em;
 }
 
 .lb-overlay iframe{
 	top: 25em;
-}
+}*/
 
 .imglist li img{
 	width: 100%;
@@ -922,7 +922,7 @@ footer{
 
 .lb-overlay img.portrait, .lb-overlay img.portrait2{
 	width: 50%;
-	top:1em;
+	/*top:1em;*/
 }
 
 
@@ -949,9 +949,9 @@ footer{
 	height: 100%;
 }
 
-.lb-overlay .landscape2{
+/*.lb-overlay .landscape2{
 	top: 23em;
-}
+}*/
 
 .landscape + div>a.lb-prev, .landscape + div>a.lb-next, .animation + div>a.lb-prev, .animation + div>a.lb-next{
     top: 20em;
