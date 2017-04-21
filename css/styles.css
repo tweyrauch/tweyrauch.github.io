@@ -939,17 +939,17 @@ footer{
 }
 
 .lb-overlay .landscape, .lb-overlay .landscape2, .lb-overlay .animation{
-	width: 75%;
-	height: auto;
+	/*width: 75%;
+	height: auto;*/
 	top:18em;
 
 }
 
-.lb-overlay .animation{
+/*.lb-overlay .animation{
 	height: 100%;
 }
 
-/*.lb-overlay .landscape2{
+.lb-overlay .landscape2{
 	top: 23em;
 }*/
 
