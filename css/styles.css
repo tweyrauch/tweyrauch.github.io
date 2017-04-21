@@ -458,7 +458,7 @@ i{
 
 .triplewrap{
 	text-align: center;
-	position: absolute;
+	position: relative;
 	    margin: auto;
     left: 0;
     right: 0;
@@ -557,7 +557,7 @@ ul.accomplishments li{
 }
 
 .lb-overlay .title{
-	  top: -2em;
+
 text-align: center;
 position: relative;
 margin-top: 0;
