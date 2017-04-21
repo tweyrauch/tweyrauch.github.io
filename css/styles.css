@@ -659,7 +659,7 @@ input[name="switch"]{
 	margin: auto;
 	height: auto;
 	position: absolute;
-	top: 25em;
+	
 	left:0;
 	right:0;
 	/*bottom: 0;*/
@@ -671,6 +671,10 @@ input[name="switch"]{
 
 .lb-overlay img{
 	top:30em;
+}
+
+.lb-overlay iframe{
+	top: 25em;
 }
 
 .imglist li img{
@@ -914,7 +918,7 @@ footer{
 
 .lb-overlay img.portrait, .lb-overlay img.portrait2{
 	width: 50%;
-
+	top:1em;
 }
 
 
