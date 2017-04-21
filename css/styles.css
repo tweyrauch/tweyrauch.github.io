@@ -748,7 +748,7 @@ input[name="switch"]{
 	display: block;
 	border-radius: 5px;
     position: absolute;
-    top:3em;
+    top:5em;
     opacity: 0.5;
     text-align: center;
     z-index: 1000;
@@ -1054,7 +1054,9 @@ footer{
 
 	}
 
-	
+	.lb-prev, .lb-next{
+	top:3em;
+	}
 
 }
 
