@@ -940,10 +940,14 @@ footer{
 
 .lb-overlay .landscape, .lb-overlay .landscape2, .lb-overlay .animation{
 	width: 75%;
-	height: auto;
-	/*top:18em;*/
+	/*height: auto;
+	top:18em;*/
 
 }
+	
+	div.imgframe>.landscape + ul.description-landscape{
+	top:45em;
+	}
 
 /*.lb-overlay .animation{
 	height: 100%;
