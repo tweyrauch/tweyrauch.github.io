@@ -963,7 +963,7 @@ footer{
 
 
 .landscape2 + div>a.lb-prev, .landscape2 + div>a.lb-next{
-	top: 21em;
+	top: 18em;
 }
 
 .description-landscape, .description, .description-triple{
@@ -973,6 +973,11 @@ footer{
 	top:36em;
 	right: 0;
 }
+	
+	.description-landscape{
+	top:45em;
+	}
+
 
 .description{
 	top: 62em;
