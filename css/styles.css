@@ -935,13 +935,13 @@ footer{
 }
 
 .portrait + div>a.lb-prev, .portrait + div>a.lb-next{
-	top: 28em;
+	top: 24em;
 }
 
 .lb-overlay .landscape, .lb-overlay .landscape2, .lb-overlay .animation{
-	/*width: 75%;
-	height: auto;*/
-	top:18em;
+	width: 75%;
+	height: auto;
+	/*top:18em;*/
 
 }
 
@@ -954,7 +954,7 @@ footer{
 }*/
 
 .landscape + div>a.lb-prev, .landscape + div>a.lb-next, .animation + div>a.lb-prev, .animation + div>a.lb-next{
-    top: 20em;
+    top: 12em;
 }
 
 
@@ -966,12 +966,12 @@ footer{
 	width: 100%;
 	padding: 0 5%;
 	box-sizing:border-box;
-	top:50vh;
+	top:36em;
 	right: 0;
 }
 
 .description{
-	top: 58vh;
+	top: 62em;
 }
 
 /*.animation + div + .description-landscape{
