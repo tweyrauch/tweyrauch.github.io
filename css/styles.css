@@ -957,12 +957,12 @@ footer{
 	top: 23em;
 }*/
 
-.landscape + div>a.lb-prev, .landscape + div>a.lb-next, .animation + div>a.lb-prev, .animation + div>a.lb-next{
+ .animation + div>a.lb-prev, .animation + div>a.lb-next{
     top: 12em;
 }
 
 
-.landscape2 + div>a.lb-prev, .landscape2 + div>a.lb-next{
+.landscape + div>a.lb-prev, .landscape + div>a.lb-next, .landscape2 + div>a.lb-prev, .landscape2 + div>a.lb-next{
 	top: 18em;
 }
 
